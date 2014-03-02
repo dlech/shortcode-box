@@ -6,7 +6,7 @@
 Plugin Name:  Shortcode Box
 Plugin URI:   http://www.arefly.com/shortcode-box/
 Description:  Add Useful Boxes to your blog simply by shortcode. 在你的部落格中使用短代碼來加入實用的提示框
-Version:      1.0
+Version:      1.0.1
 Author:       Arefly
 Author URI:   http://www.arefly.com/
 Text Domain:  shortcode-box
@@ -65,7 +65,7 @@ include_once SHORTCODE_BOX_FULL_DIR."help.php";
 function shortcode_box_action_links($links){
 	$arefly_plugins_info = get_arefly_plugins_info();
 	$locale_code = get_arefly_plugins_info_locale();
-	$links[] = '<a href="'.get_admin_url(null, 'options-general.php?page='.SHORTCODE_BOX_TEXT_DOMAIN.'-options').'">'.$arefly_plugins_info["settings"][$locale_code].'</a>';
+	$links[] = '<a href="'.get_admin_url(null, 'tools.php?page='.SHORTCODE_BOX_TEXT_DOMAIN.'-help').'">'.$arefly_plugins_info["help"][$locale_code].'</a>';
 	$links[] = '<a href="http://file.arefly.com/arefly_plugins_info.xml" target="_blank">'.$arefly_plugins_info["more_plugin_by_arefly"][$locale_code].'</a>';
 	return $links;
 }
