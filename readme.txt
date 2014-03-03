@@ -50,7 +50,7 @@ YES! I do this in my free time and I appreciate all donations that I get. It mak
 
 == Changelog == 
 
-**Version 1.0.1**
+**Version 1.0.1 to 1.0.2**
 
 * Fix Bugs.
 

@@ -24,39 +24,39 @@ function shortcode_box_help_page() {
 		<p><?php _e("You may add following short code to your post.", SHORTCODE_BOX_TEXT_DOMAIN); ?></p>
 		<div>
 			<div class="down box-content">
-				[sc mode="down"]<?php _e("Download Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/sc]
+				[box mode="down"]<?php _e("Download Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
 			<div class="warn box-content">
-				[sc mode="warning"]<?php _e("Hint Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/sc]
+				[box mode="warning"]<?php _e("Hint Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
 			<div class="instruct box-content">
-				[sc mode="ins"]<?php _e("Introduction Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/sc]
+				[box mode="ins"]<?php _e("Introduction Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
 			<div class="text-box box-content">
-				[sc mode="text"]<?php _e("Text Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/sc]
+				[box mode="text"]<?php _e("Text Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
 			<div class="question box-content">
-				[sc mode="question"]<?php _e("Question Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/sc]
+				[box mode="question"]<?php _e("Question Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
 			<div class="course box-content">
-				[sc mode="course"]<?php _e("Course Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/sc]
+				[box mode="course"]<?php _e("Course Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
 			<div class="stop box-content">
-				[sc mode="stop"]<?php _e("Disallow Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/sc]
+				[box mode="stop"]<?php _e("Disallow Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
 			<div class="task box-content">
-				[sc mode="task"]<?php _e("Task Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/sc]
+				[box mode="task"]<?php _e("Task Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
 			<div class="link box-content">
-				[sc mode="link"]<?php _e("Link Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/sc]
+				[box mode="link"]<?php _e("Link Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 		</div>
 	</div>
