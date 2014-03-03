@@ -16,6 +16,8 @@ Add Useful Boxes to your blog simply by shortcode.
 
 在你的部落格中使用短代碼來加入實用的提示框
 
+Live Demo: [Click Here](http://demo.arefly.com/wordpress/shortcode-box/)
+
 = Translators =
 
 * Chinese, Simplified (zh_CN) - [Arefly](http://www.arefly.com/)
@@ -50,7 +52,17 @@ YES! I do this in my free time and I appreciate all donations that I get. It mak
 
 == Changelog == 
 
-**Version 1.0.1 to 1.0.2**
+**Version 1.0.3**
+
+* Add Live Demo.
+
+* Add Banners.
+
+**Version 1.0.2**
+
+* Change shortcode from `[sc]` to `[box]`.
+
+**Version 1.0.1**
 
 * Fix Bugs.
 
