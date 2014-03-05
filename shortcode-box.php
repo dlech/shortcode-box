@@ -6,7 +6,7 @@
 Plugin Name:  Shortcode Box
 Plugin URI:   http://www.arefly.com/shortcode-box/
 Description:  Add Useful Boxes to your blog simply by shortcode. 在你的部落格中使用短代碼來加入實用的提示框
-Version:      1.0.3
+Version:      1.0.4
 Author:       Arefly
 Author URI:   http://www.arefly.com/
 Text Domain:  shortcode-box
@@ -41,32 +41,11 @@ function shortcode_box_load_plugin_textdomain() {
 }
 add_action('plugins_loaded', 'shortcode_box_load_plugin_textdomain');
 
-/* Info About Arefly's Other Plugins (DO NOT CHANGE IT!) */
-if(!function_exists('get_arefly_plugins_info')){
-	function get_arefly_plugins_info(){
-		return json_decode(json_encode(simplexml_load_file("http://file.arefly.com/arefly_plugins_info.xml")), TRUE);
-	}
-}
-if(!function_exists('get_arefly_plugins_info_locale')){
-	function get_arefly_plugins_info_locale(){
-		$arefly_plugins_info = get_arefly_plugins_info();
-		if(array_key_exists(get_locale(), $arefly_plugins_info["notice"])){
-			$locale_code = get_locale();
-		}else{
-			$locale_code = "en_US";
-		}
-		return $locale_code;
-	}
-}
-
 include_once SHORTCODE_BOX_FULL_DIR."help.php";
 
 /* Add Links to Plugins Management Page */
 function shortcode_box_action_links($links){
-	$arefly_plugins_info = get_arefly_plugins_info();
-	$locale_code = get_arefly_plugins_info_locale();
-	$links[] = '<a href="'.get_admin_url(null, 'tools.php?page='.SHORTCODE_BOX_TEXT_DOMAIN.'-help').'">'.$arefly_plugins_info["help"][$locale_code].'</a>';
-	$links[] = '<a href="http://file.arefly.com/arefly_plugins_info.xml" target="_blank">'.$arefly_plugins_info["more_plugin_by_arefly"][$locale_code].'</a>';
+	$links[] = '<a href="'.get_admin_url(null, 'tools.php?page='.SHORTCODE_BOX_TEXT_DOMAIN.'-help').'">'.__("Help", SHORTCODE_BOX_TEXT_DOMAIN).'</a>';
 	return $links;
 }
 add_filter('plugin_action_links_'.plugin_basename(__FILE__), 'shortcode_box_action_links');
