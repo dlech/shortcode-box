@@ -4,11 +4,7 @@ function shortcode_box_register_options_page() {
 }
 add_action('admin_menu', 'shortcode_box_register_options_page');
 
-$arefly_plugins_info = get_arefly_plugins_info();
-$locale_code = get_arefly_plugins_info_locale();
-
 function shortcode_box_help_page() {
-	global $arefly_plugins_info, $locale_code;
 ?>
 <style>
 .padding-bottom{
@@ -20,7 +16,6 @@ function shortcode_box_help_page() {
 	<div class="help-page">
 		<?php settings_fields('shortcode_box_options'); ?>
 		<h3><?php _e("Shortcode Usage", SHORTCODE_BOX_TEXT_DOMAIN); ?></h3>
-		<p><?php echo $arefly_plugins_info["notice"][$locale_code]; ?></p>
 		<p><?php _e("You may add following short code to your post.", SHORTCODE_BOX_TEXT_DOMAIN); ?></p>
 		<div>
 			<div class="down box-content">
@@ -60,14 +55,6 @@ function shortcode_box_help_page() {
 			</div>
 		</div>
 	</div>
-	<blockquote>
-		<p><?php echo $arefly_plugins_info["plugin_by_arefly"][$locale_code]; ?></p>
-		<ol>
-			<?php foreach ($arefly_plugins_info["plugins"] as $plugin_info){ ?>
-				<li><a href="<?php echo $plugin_info["link"]; ?>" target="_blank"><?php echo $plugin_info["name"]; ?></a></li>
-			<?php } ?>
-		</ol>
-	</blockquote>
 </div>
 <?php
 }

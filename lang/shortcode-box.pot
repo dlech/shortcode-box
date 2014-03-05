@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Shortcode Box\n"
-"POT-Creation-Date: 2014-03-01 14:29+0800\n"
-"PO-Revision-Date: 2014-03-01 14:30+0800\n"
+"POT-Creation-Date: 2014-03-05 20:21+0800\n"
+"PO-Revision-Date: 2014-03-05 20:21+0800\n"
 "Last-Translator: Arefly <eflyjason@gmail.com>\n"
 "Language-Team: Arefly <eflyjason@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: help.php:3 help.php:19
+#: help.php:3 help.php:15
 msgid "Shortcode Box Help Page"
 msgstr ""
 
@@ -23,46 +23,50 @@ msgstr ""
 msgid "Shortcode Box"
 msgstr ""
 
-#: help.php:22
+#: help.php:18
 msgid "Shortcode Usage"
 msgstr ""
 
-#: help.php:24
+#: help.php:19
 msgid "You may add following short code to your post."
 msgstr ""
 
-#: help.php:27
+#: help.php:22
 msgid "Download Box"
 msgstr ""
 
-#: help.php:31
+#: help.php:26
 msgid "Hint Box"
 msgstr ""
 
-#: help.php:35
+#: help.php:30
 msgid "Introduction Box"
 msgstr ""
 
-#: help.php:39
+#: help.php:34
 msgid "Text Box"
 msgstr ""
 
-#: help.php:43
+#: help.php:38
 msgid "Question Box"
 msgstr ""
 
-#: help.php:47
+#: help.php:42
 msgid "Course Box"
 msgstr ""
 
-#: help.php:51
+#: help.php:46
 msgid "Disallow Box"
 msgstr ""
 
-#: help.php:55
+#: help.php:50
 msgid "Task Box"
 msgstr ""
 
-#: help.php:59
+#: help.php:54
 msgid "Link Box"
+msgstr ""
+
+#: shortcode-box.php:48
+msgid "Help"
 msgstr ""

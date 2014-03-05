@@ -52,6 +52,10 @@ YES! I do this in my free time and I appreciate all donations that I get. It mak
 
 == Changelog == 
 
+**Version 1.0.4**
+
+* Remove All Remote Load File.
+
 **Version 1.0.3**
 
 * Add Live Demo.
