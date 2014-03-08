@@ -6,7 +6,7 @@
 Plugin Name:  Shortcode Box
 Plugin URI:   http://www.arefly.com/shortcode-box/
 Description:  Add Useful Boxes to your blog simply by shortcode. 在你的部落格中使用短代碼來加入實用的提示框
-Version:      1.0.6
+Version:      1.0.7
 Author:       Arefly
 Author URI:   http://www.arefly.com/
 Text Domain:  shortcode-box
@@ -56,10 +56,8 @@ function shortcode_box_enqueue_styles(){
 add_action('wp_enqueue_scripts', 'shortcode_box_enqueue_styles');
 add_action('admin_enqueue_scripts', 'shortcode_box_enqueue_styles');
 
-add_shortcode('box', 'shortcode_box');
-function shortcode_box($atts, $content = null, $code = ""){
+function shortcode_box($atts, $content = null){
 	$content = trim(do_shortcode($content));
-	extract(shortcode_atts(array("mode"=>'text', "href"=>'http://', "auto"=>'0'), $atts));
 	switch ($mode) {
 		case 'down':
 			return '<div class="down box-content">'.$content.'</div>';
@@ -102,3 +100,4 @@ function shortcode_box($atts, $content = null, $code = ""){
 		break;
 	}
 }
+add_shortcode('box', 'shortcode_box');
