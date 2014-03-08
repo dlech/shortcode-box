@@ -14,7 +14,11 @@ Add Useful Boxes to your blog simply by shortcode. 在你的部落格中使用�
 
 Add Useful Boxes to your blog simply by shortcode.
 
+You can find the usage in "Dashboard" -> "Tools" -> "Shortcode Box"
+
 在你的部落格中使用短代碼來加入實用的提示框
+
+你可以在「控制台」-「工具」-「短代碼提示框」查看使用方法
 
 Live Demo: [Click Here](http://demo.arefly.com/wordpress/shortcode-box/)
 
@@ -51,6 +55,12 @@ You may post on the [support forum of this plugin](http://wordpress.org/support/
 YES! I do this in my free time and I appreciate all donations that I get. It makes me want to continue to update this plugin. You can find more details on [About Me Page](http://www.arefly.com/about/).
 
 == Changelog == 
+
+**Version 1.0.7**
+
+* Update Readme File.
+
+* Fix Bugs.
 
 **Version 1.0.6**
 
