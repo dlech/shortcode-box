@@ -52,6 +52,10 @@ YES! I do this in my free time and I appreciate all donations that I get. It mak
 
 == Changelog == 
 
+**Version 1.0.6**
+
+* Now you can use other shortcode in `[box]`.
+
 **Version 1.0.5**
 
 * Improve loading CSS by `wp_enqueue_style`.
