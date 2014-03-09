@@ -56,6 +56,10 @@ YES! I do this in my free time and I appreciate all donations that I get. It mak
 
 == Changelog == 
 
+**Version 1.0.8**
+
+* Add Uncompressed CSS File & Using Minified CSS File.
+
 **Version 1.0.7**
 
 * Update Readme File.
