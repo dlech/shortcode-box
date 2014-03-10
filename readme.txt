@@ -8,19 +8,21 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add Useful Boxes to your blog simply by shortcode. 在你的部落格中使用短代碼來加入實用的提示框
+Add Useful Boxes to your blog simply by shortcode.
 
 == Description ==
 
-Add Useful Boxes to your blog simply by shortcode.
+Need some boxs to make your post better?
 
-You can find the usage in "Dashboard" -> "Tools" -> "Shortcode Box"
+Now you can use this plugin to add Useful Boxes to your blog!
 
-在你的部落格中使用短代碼來加入實用的提示框
+You just need to type the shortcode `[box]` in to your post and everything will done for you!
 
-你可以在「控制台」-「工具」-「短代碼提示框」查看使用方法
+For shortcode usage please visit "Dashboard" -> "Tools" -> "Shortcode Box"
 
 Live Demo: [Click Here](http://demo.arefly.com/wordpress/shortcode-box/)
+
+中文介紹請看[這裏](http://www.arefly.com/shortcode-box/)
 
 = Translators =
 
@@ -55,6 +57,10 @@ You may post on the [support forum of this plugin](http://wordpress.org/support/
 YES! I do this in my free time and I appreciate all donations that I get. It makes me want to continue to update this plugin. You can find more details on [About Me Page](http://www.arefly.com/about/).
 
 == Changelog == 
+
+**Version 1.0.9**
+
+* Update Readme File.
 
 **Version 1.0.8**
 
