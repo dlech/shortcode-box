@@ -6,7 +6,7 @@
 Plugin Name:  Shortcode Box
 Plugin URI:   http://www.arefly.com/shortcode-box/
 Description:  Add Useful Boxes to your blog simply by shortcode.
-Version:      1.0.9
+Version:      1.1
 Author:       Arefly
 Author URI:   http://www.arefly.com/
 Text Domain:  shortcode-box
@@ -58,6 +58,7 @@ add_action('admin_enqueue_scripts', 'shortcode_box_enqueue_styles');
 
 function shortcode_box($atts, $content = null){
 	$content = trim(do_shortcode($content));
+	extract(shortcode_atts(array("mode"=>'text'), $atts));
 	switch ($mode) {
 		case 'down':
 			return '<div class="down box-content">'.$content.'</div>';
