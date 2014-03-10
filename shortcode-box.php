@@ -6,7 +6,7 @@
 Plugin Name:  Shortcode Box
 Plugin URI:   http://www.arefly.com/shortcode-box/
 Description:  Add Useful Boxes to your blog simply by shortcode.
-Version:      1.1.1
+Version:      1.1.2
 Author:       Arefly
 Author URI:   http://www.arefly.com/
 Text Domain:  shortcode-box

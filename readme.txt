@@ -13,8 +13,11 @@ Add Useful Boxes to your blog simply by shortcode.
 == Description ==
 
 Need some boxs to make your post better?
+
 Now you can use this plugin to add Useful Boxes to your blog!
+
 You just need to type the shortcode `[box]` in to your post and everything will done for you!
+
 For shortcode usage please visit "Dashboard" -> "Tools" -> "Shortcode Box"
 
 Live Demo: [Click Here](http://demo.arefly.com/wordpress/shortcode-box/)
@@ -55,7 +58,7 @@ YES! I do this in my free time and I appreciate all donations that I get. It mak
 
 == Changelog == 
 
-**Version 1.1.1**
+**Version 1.1.1 to 1.1.2**
 
 * Update Readme File.
 
