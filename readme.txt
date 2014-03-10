@@ -58,6 +58,10 @@ YES! I do this in my free time and I appreciate all donations that I get. It mak
 
 == Changelog == 
 
+**Version 1.1**
+
+* Fix Bugs.
+
 **Version 1.0.9**
 
 * Update Readme File.
