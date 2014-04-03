@@ -1,4 +1,4 @@
-.box-border {
+.shortcode-box-border {
 	font-size: 13px;
 	border: 1px solid #FFF;
 	padding: 10px;
@@ -11,13 +11,13 @@
 	-khtml-border-radius: 5px;
 }
 
-.box-content {
+.shortcode-box-content {
 	display: inline-block;
 	vertical-align: middle;
 	line-height: 13px;
 }
 
-.download {
+.shortcode-box-download {
 	background: url(img/download.png) no-repeat scroll 17px 14px;
 	border-left: 5px solid #bd996a;
 	padding-left: 80px;
@@ -25,7 +25,7 @@
 	line-height: 48px;
 }
 
-.info {
+.shortcode-box-info {
 	background: url(img/info.png) no-repeat scroll 17px 14px;
 	border-left: 5px solid #73af28;
 	padding-left: 80px;
@@ -33,7 +33,7 @@
 	line-height: 48px;
 }
 
-.instruct {
+.shortcode-box-instruct {
 	background: url(img/instruct.png) no-repeat scroll 17px 14px;
 	border-left: 5px solid #4a7304;
 	padding-left: 80px;
@@ -41,7 +41,7 @@
 	line-height: 48px;
 }
 
-.text {
+.shortcode-box-text {
 	background: url(img/text.png) no-repeat scroll 17px 14px;
 	border-left: 5px solid #7fa9d0;
 	padding-left: 80px;
@@ -49,7 +49,7 @@
 	line-height: 48px;
 }
 
-.course {
+.shortcode-box-course {
 	background: url(img/course.png) no-repeat scroll 17px 14px;
 	border-left: 5px solid #f79926;
 	padding-left: 80px;
@@ -57,7 +57,7 @@
 	line-height: 48px;
 }
 
-.task {
+.shortcode-box-task {
 	background: url(img/task.png) no-repeat scroll 17px 14px;
 	border-left: 5px solid #5a5a5a;
 	padding-left: 80px;
@@ -65,7 +65,7 @@
 	line-height: 48px;
 }
 
-.stop {
+.shortcode-box-stop {
 	background: url(img/stop.png) no-repeat scroll 17px 14px;
 	border-left: 5px solid #cc0000;
 	padding-left: 80px;
@@ -73,7 +73,7 @@
 	line-height: 48px;
 }
 
-.question {
+.shortcode-box-question {
 	background: url(img/question.png) no-repeat scroll 17px 14px;
 	border-left: 5px solid #3164b0;
 	padding-left: 80px;
@@ -81,7 +81,7 @@
 	line-height: 48px;
 }
 
-.link {
+.shortcode-box-link {
 	background: url(img/link.png) no-repeat scroll 17px 14px;
 	border-left: 5px solid #000;
 	padding-left: 80px;
@@ -89,7 +89,7 @@
 	line-height: 48px;
 }
 
-.code {
+.shortcode-box-code {
 	background: url(img/code.png) no-repeat scroll 17px 14px;
 	border-left: 5px solid #e5004f;
 	padding-left: 80px;

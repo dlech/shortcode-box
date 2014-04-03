@@ -18,47 +18,47 @@ function shortcode_box_help_page() {
 		<h3><?php _e("Shortcode Usage", SHORTCODE_BOX_TEXT_DOMAIN); ?></h3>
 		<p><?php _e("You may add following short code to your post.", SHORTCODE_BOX_TEXT_DOMAIN); ?></p>
 		<div>
-			<div class="box-border">
+			<div class="shortcode-box-border">
 				[box]<?php _e("Plain Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
-			<div class="download box-border">
+			<div class="shortcode-box-download shortcode-box-border">
 				[box mode="download"]<?php _e("Download Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
-			<div class="info box-border">
+			<div class="shortcode-box-info shortcode-box-border">
 				[box mode="info"]<?php _e("Hint Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
-			<div class="instruct box-border">
+			<div class="shortcode-box-instruct shortcode-box-border">
 				[box mode="instuct"]<?php _e("Introduction Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
-			<div class="text box-border">
+			<div class="shortcode-box-text shortcode-box-border">
 				[box mode="text"]<?php _e("Text Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
-			<div class="question box-border">
+			<div class="shortcode-box-question shortcode-box-border">
 				[box mode="question"]<?php _e("Question Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
-			<div class="course box-border">
+			<div class="shortcode-box-course shortcode-box-border">
 				[box mode="course"]<?php _e("Course Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
-			<div class="stop box-border">
+			<div class="shortcode-box-stop shortcode-box-border">
 				[box mode="stop"]<?php _e("Disallow Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
-			<div class="task box-border">
+			<div class="shortcode-box-task shortcode-box-border">
 				[box mode="task"]<?php _e("Task Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
-			<div class="link box-border">
+			<div class="shortcode-box-link shortcode-box-border">
 				[box mode="link"]<?php _e("Link Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 			<div class="padding-bottom"></div>
-			<div class="code box-border">
+			<div class="shortcode-box-code shortcode-box-border">
 				[box mode="code"]<?php _e("Code Box", SHORTCODE_BOX_TEXT_DOMAIN); ?>[/box]
 			</div>
 		</div>

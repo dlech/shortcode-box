@@ -59,6 +59,6 @@ add_action('admin_enqueue_scripts', 'shortcode_box_enqueue_styles');
 function shortcode_box($atts, $content = null){
 	$content = trim(do_shortcode($content));
 	extract(shortcode_atts(array("mode"=>'text'), $atts));
-	return '<div class="'.$mode.' box-border"><span class="box-content">'.$content.'</span></div>';
+	return '<div class="shortcode-box-'.$mode.' shortcode-box-border"><span class="shortcode-box-content">'.$content.'</span></div>';
 }
 add_shortcode('box', 'shortcode_box');
