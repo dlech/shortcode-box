@@ -51,7 +51,7 @@ function shortcode_box_action_links($links){
 add_filter('plugin_action_links_'.plugin_basename(__FILE__), 'shortcode_box_action_links');
 
 function shortcode_box_enqueue_styles(){
-	wp_enqueue_style(SHORTCODE_BOX_TEXT_DOMAIN, SHORTCODE_BOX_PLUGIN_URL.'style.min.css');
+	wp_enqueue_style(SHORTCODE_BOX_TEXT_DOMAIN, SHORTCODE_BOX_PLUGIN_URL.'style.css');
 }
 add_action('wp_enqueue_scripts', 'shortcode_box_enqueue_styles');
 add_action('admin_enqueue_scripts', 'shortcode_box_enqueue_styles');
@@ -59,46 +59,6 @@ add_action('admin_enqueue_scripts', 'shortcode_box_enqueue_styles');
 function shortcode_box($atts, $content = null){
 	$content = trim(do_shortcode($content));
 	extract(shortcode_atts(array("mode"=>'text'), $atts));
-	switch ($mode) {
-		case 'down':
-			return '<div class="down box-content">'.$content.'</div>';
-		break;
-
-		case 'warning':
-			return '<div class="warn box-content">'.$content.'</div>';
-		break;
-
-		case 'ins':
-			return '<div class="instruct box-content">'.$content.'</div>';
-		break;
-
-		case 'text':
-			return '<div class="text-box box-content">'.$content.'</div>';
-		break;
-
-		case 'question':
-			return '<div class="question box-content">'.$content.'</div>';
-		break;
-
-		case 'course':
-			return '<div class="course box-content">'.$content.'</div>';
-		break;
-
-		case 'stop':
-			return '<div class="stop box-content">'.$content.'</div>';
-		break;
-
-		case 'task':
-			return '<div class="task box-content">'.$content.'</div>';
-		break;
-
-		case 'link':
-			return '<div class="link box-content">'.$content.'</div>';
-		break;
-		
-		default:
-			return $content;		
-		break;
-	}
+	return '<div class="'.$mode.' box-border"><span class="box-content">'.$content.'</span></div>';
 }
 add_shortcode('box', 'shortcode_box');

@@ -1,196 +1,98 @@
-.box-content {
-	font-size: 12px;
-	min-height: 65px;
+.box-border {
+	font-size: 13px;
 	border: 1px solid #FFF;
-	padding: 10px 10px 0 80px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
 }
 
-.down {
-	background: url(img/down.png) no-repeat scroll 17px 14px;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 12px;
+.box-content {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 13px;
+}
+
+.download {
+	background: url(img/download.png) no-repeat scroll 17px 14px;
 	border-left: 5px solid #bd996a;
-	border-right: 1px solid #DDDDDD;
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	-webkit-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	-moz-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	box-shadow: 1px 1px 4px rgba(150,150,150,.3);
+	padding-left: 80px;
+	min-height: 65px;
+	line-height: 48px;
 }
 
-.warn {
-	background: url(img/warn.png) no-repeat scroll 17px 14px;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 12px;
+.info {
+	background: url(img/info.png) no-repeat scroll 17px 14px;
 	border-left: 5px solid #73af28;
-	border-right: 1px solid #DDDDDD;
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	-webkit-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	-moz-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	box-shadow: 1px 1px 4px rgba(150,150,150,.3);
+	padding-left: 80px;
+	min-height: 65px;
+	line-height: 48px;
 }
 
 .instruct {
 	background: url(img/instruct.png) no-repeat scroll 17px 14px;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 12px;
 	border-left: 5px solid #4a7304;
-	border-right: 1px solid #DDDDDD;
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	-webkit-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	-moz-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	box-shadow: 1px 1px 4px rgba(150,150,150,.3);
+	padding-left: 80px;
+	min-height: 65px;
+	line-height: 48px;
 }
 
-.text-box {
+.text {
 	background: url(img/text.png) no-repeat scroll 17px 14px;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 12px;
 	border-left: 5px solid #7fa9d0;
-	border-right: 1px solid #DDDDDD;
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	-webkit-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	-moz-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	box-shadow: 1px 1px 4px rgba(150,150,150,.3);
+	padding-left: 80px;
+	min-height: 65px;
+	line-height: 48px;
 }
 
 .course {
 	background: url(img/course.png) no-repeat scroll 17px 14px;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 12px;
 	border-left: 5px solid #f79926;
-	border-right: 1px solid #DDDDDD;
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	-webkit-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	-moz-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	box-shadow: 1px 1px 4px rgba(150,150,150,.3);
+	padding-left: 80px;
+	min-height: 65px;
+	line-height: 48px;
 }
 
 .task {
 	background: url(img/task.png) no-repeat scroll 17px 14px;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 12px;
 	border-left: 5px solid #5a5a5a;
-	border-right: 1px solid #DDDDDD;
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	-webkit-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	-moz-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	box-shadow: 1px 1px 4px rgba(150,150,150,.3);
+	padding-left: 80px;
+	min-height: 65px;
+	line-height: 48px;
 }
 
 .stop {
 	background: url(img/stop.png) no-repeat scroll 17px 14px;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 12px;
 	border-left: 5px solid #cc0000;
-	border-right: 1px solid #DDDDDD;
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	-webkit-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	-moz-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	box-shadow: 1px 1px 4px rgba(150,150,150,.3);
+	padding-left: 80px;
+	min-height: 65px;
+	line-height: 48px;
 }
 
 .question {
 	background: url(img/question.png) no-repeat scroll 17px 14px;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 12px;
 	border-left: 5px solid #3164b0;
-	border-right: 1px solid #DDDDDD;
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	-webkit-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	-moz-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	box-shadow: 1px 1px 4px rgba(150,150,150,.3);
+	padding-left: 80px;
+	min-height: 65px;
+	line-height: 48px;
 }
 
 .link {
 	background: url(img/link.png) no-repeat scroll 17px 14px;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 12px;
 	border-left: 5px solid #000;
-	border-right: 1px solid #DDDDDD;
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	-webkit-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	-moz-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	box-shadow: 1px 1px 4px rgba(150,150,150,.3);
+	padding-left: 80px;
+	min-height: 65px;
+	line-height: 48px;
 }
 
-.codee {
-	background: url(img/codee.png) no-repeat scroll 17px 14px;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 12px;
+.code {
+	background: url(img/code.png) no-repeat scroll 17px 14px;
 	border-left: 5px solid #e5004f;
-	border-right: 1px solid #DDDDDD;
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	-webkit-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	-moz-box-shadow: 1px 1px 4px rgba(150,150,150,.3);
-	box-shadow: 1px 1px 4px rgba(150,150,150,.3);
+	padding-left: 80px;
+	min-height: 65px;
+	line-height: 48px;
 }
